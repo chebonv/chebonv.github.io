@@ -12,6 +12,6 @@ Not Supported
 
 ## Acknowledgments
 
-* w3css templates
+* w3 css templates
 * etc
 
