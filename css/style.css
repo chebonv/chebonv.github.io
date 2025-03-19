@@ -807,3 +807,68 @@ section {
         justify-content: center;
     }
 }
+
+/* Projects Extended Page Styles */
+.page-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 4rem 0 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 70px;
+}
+
+.page-header h1 {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.projects-extended {
+    padding: 2rem 0 4rem;
+}
+
+.projects-extended .project-card {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.projects-extended .project-card:hover {
+    transform: translateY(-5px);
+}
+
+.projects-extended .project-info p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.projects-extended .project-tags {
+    margin: 1.5rem 0;
+}
+
+.projects-extended .project-links {
+    margin-top: 1.5rem;
+}
+
+.projects-extended .project-links a {
+    margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        padding: 3rem 0;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .projects-extended .project-card {
+        margin-bottom: 1.5rem;
+    }
+}
